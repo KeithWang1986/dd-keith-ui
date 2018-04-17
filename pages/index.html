@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>React App</title>
+  <link href="/public/dll/vendor.css" rel="stylesheet" />
+  <link href="/public/dist/css/index.css" rel="stylesheet" />
+  <style>
+    body {
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+  <script type="text/javascript">
+    var setting = {};
+
+    var zNodes = [
+      {
+        name: "父节点1 - 展开", open: true,
+        children: [
+          {
+            name: "父节点11 - 折叠",
+            children: [
+              { name: "叶子节点111" },
+              { name: "叶子节点112" },
+              { name: "叶子节点113" },
+              { name: "叶子节点114" }
+            ]
+          },
+          {
+            name: "父节点12 - 折叠",
+            children: [
+              { name: "叶子节点121" },
+              { name: "叶子节点122" },
+              { name: "叶子节点123" },
+              { name: "叶子节点124" }
+            ]
+          },
+          { name: "父节点13 - 没有子节点", isParent: true }
+        ]
+      },
+      {
+        name: "父节点2 - 折叠",
+        children: [
+          {
+            name: "父节点21 - 展开", open: true,
+            children: [
+              { name: "叶子节点211" },
+              { name: "叶子节点212" },
+              { name: "叶子节点213" },
+              { name: "叶子节点214" }
+            ]
+          },
+          {
+            name: "父节点22 - 折叠",
+            children: [
+              { name: "叶子节点221" },
+              { name: "叶子节点222" },
+              { name: "叶子节点223" },
+              { name: "叶子节点224" }
+            ]
+          },
+          {
+            name: "父节点23 - 折叠",
+            children: [
+              { name: "叶子节点231" },
+              { name: "叶子节点232" },
+              { name: "叶子节点233" },
+              { name: "叶子节点234" }
+            ]
+          }
+        ]
+      },
+      { name: "父节点3 - 没有子节点", isParent: true }
+    ];
+  </script>
+  <script type="text/javascript" src="/public/dll/vendor.dll.min.js"></script>
+  <script type="text/javascript" src="/public/dist/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+{
+  "name": "dd-keith-ui",
+  "version": "1.0.10",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeithWang1986/dd-keith-ui.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "KeithWang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeithWang1986/dd-keith-ui/issues"
+  },
+  "homepage": "https://github.com/KeithWang1986/dd-keith-ui#readme",
+  "dependencies": {
+    "moment": "^2.20.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react-app": "^3.1.1",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.8.1"
+  }
+}
